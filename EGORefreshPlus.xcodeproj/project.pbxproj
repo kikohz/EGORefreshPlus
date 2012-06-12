@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177CD39215874EFE00BABBCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177CD39115874EFE00BABBCD /* UIKit.framework */; };
+		177CD39415874EFE00BABBCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177CD39315874EFE00BABBCD /* Foundation.framework */; };
+		177CD39615874EFE00BABBCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177CD39515874EFE00BABBCD /* CoreGraphics.framework */; };
+		177CD39C15874EFE00BABBCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 177CD39A15874EFE00BABBCD /* InfoPlist.strings */; };
+		177CD39E15874EFE00BABBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 177CD39D15874EFE00BABBCD /* main.m */; };
+		177CD3A215874EFE00BABBCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 177CD3A115874EFE00BABBCD /* AppDelegate.m */; };
+		177CD3A515874EFE00BABBCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 177CD3A415874EFE00BABBCD /* ViewController.m */; };
+		177CD3A815874EFE00BABBCD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3A615874EFE00BABBCD /* ViewController.xib */; };
+		177CD3BC15874F1A00BABBCD /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 177CD3B215874F1A00BABBCD /* EGORefreshTableHeaderView.m */; };
+		177CD3BD15874F1A00BABBCD /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3B415874F1A00BABBCD /* blackArrow.png */; };
+		177CD3BE15874F1A00BABBCD /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3B515874F1A00BABBCD /* blackArrow@2x.png */; };
+		177CD3BF15874F1A00BABBCD /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3B615874F1A00BABBCD /* blueArrow.png */; };
+		177CD3C015874F1A00BABBCD /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3B715874F1A00BABBCD /* blueArrow@2x.png */; };
+		177CD3C115874F1A00BABBCD /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3B815874F1A00BABBCD /* grayArrow.png */; };
+		177CD3C215874F1A00BABBCD /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3B915874F1A00BABBCD /* grayArrow@2x.png */; };
+		177CD3C315874F1A00BABBCD /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3BA15874F1A00BABBCD /* whiteArrow.png */; };
+		177CD3C415874F1A00BABBCD /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3BB15874F1A00BABBCD /* whiteArrow@2x.png */; };
+		177CD3C615874F7E00BABBCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177CD3C515874F7E00BABBCD /* QuartzCore.framework */; };
+		177CD3C81587644D00BABBCD /* IconRefreshArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 177CD3C71587644D00BABBCD /* IconRefreshArrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		177CD38D15874EFE00BABBCD /* EGORefreshPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGORefreshPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177CD39115874EFE00BABBCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		177CD39315874EFE00BABBCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		177CD39515874EFE00BABBCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		177CD39915874EFE00BABBCD /* EGORefreshPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGORefreshPlus-Info.plist"; sourceTree = "<group>"; };
+		177CD39B15874EFE00BABBCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		177CD39D15874EFE00BABBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		177CD39F15874EFE00BABBCD /* EGORefreshPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EGORefreshPlus-Prefix.pch"; sourceTree = "<group>"; };
+		177CD3A015874EFE00BABBCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		177CD3A115874EFE00BABBCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		177CD3A315874EFE00BABBCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		177CD3A415874EFE00BABBCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		177CD3A715874EFE00BABBCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		177CD3B115874F1A00BABBCD /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		177CD3B215874F1A00BABBCD /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		177CD3B415874F1A00BABBCD /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		177CD3B515874F1A00BABBCD /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		177CD3B615874F1A00BABBCD /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		177CD3B715874F1A00BABBCD /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		177CD3B815874F1A00BABBCD /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		177CD3B915874F1A00BABBCD /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		177CD3BA15874F1A00BABBCD /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		177CD3BB15874F1A00BABBCD /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		177CD3C515874F7E00BABBCD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		177CD3C71587644D00BABBCD /* IconRefreshArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconRefreshArrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177CD38A15874EFE00BABBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CD3C615874F7E00BABBCD /* QuartzCore.framework in Frameworks */,
+				177CD39215874EFE00BABBCD /* UIKit.framework in Frameworks */,
+				177CD39415874EFE00BABBCD /* Foundation.framework in Frameworks */,
+				177CD39615874EFE00BABBCD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177CD38215874EFE00BABBCD = {
+			isa = PBXGroup;
+			children = (
+				177CD39715874EFE00BABBCD /* EGORefreshPlus */,
+				177CD39015874EFE00BABBCD /* Frameworks */,
+				177CD38E15874EFE00BABBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177CD38E15874EFE00BABBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177CD38D15874EFE00BABBCD /* EGORefreshPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177CD39015874EFE00BABBCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				177CD3C515874F7E00BABBCD /* QuartzCore.framework */,
+				177CD39115874EFE00BABBCD /* UIKit.framework */,
+				177CD39315874EFE00BABBCD /* Foundation.framework */,
+				177CD39515874EFE00BABBCD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		177CD39715874EFE00BABBCD /* EGORefreshPlus */ = {
+			isa = PBXGroup;
+			children = (
+				177CD3AE15874F1A00BABBCD /* EGOTableViewPullRefresh */,
+				177CD3A015874EFE00BABBCD /* AppDelegate.h */,
+				177CD3A115874EFE00BABBCD /* AppDelegate.m */,
+				177CD3A315874EFE00BABBCD /* ViewController.h */,
+				177CD3A415874EFE00BABBCD /* ViewController.m */,
+				177CD3A615874EFE00BABBCD /* ViewController.xib */,
+				177CD39815874EFE00BABBCD /* Supporting Files */,
+			);
+			path = EGORefreshPlus;
+			sourceTree = "<group>";
+		};
+		177CD39815874EFE00BABBCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				177CD39915874EFE00BABBCD /* EGORefreshPlus-Info.plist */,
+				177CD39A15874EFE00BABBCD /* InfoPlist.strings */,
+				177CD39D15874EFE00BABBCD /* main.m */,
+				177CD39F15874EFE00BABBCD /* EGORefreshPlus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		177CD3AE15874F1A00BABBCD /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				177CD3AF15874F1A00BABBCD /* Classes */,
+				177CD3B315874F1A00BABBCD /* Resources */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		177CD3AF15874F1A00BABBCD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				177CD3B015874F1A00BABBCD /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		177CD3B015874F1A00BABBCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				177CD3B115874F1A00BABBCD /* EGORefreshTableHeaderView.h */,
+				177CD3B215874F1A00BABBCD /* EGORefreshTableHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		177CD3B315874F1A00BABBCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				177CD3C71587644D00BABBCD /* IconRefreshArrow.png */,
+				177CD3B415874F1A00BABBCD /* blackArrow.png */,
+				177CD3B515874F1A00BABBCD /* blackArrow@2x.png */,
+				177CD3B615874F1A00BABBCD /* blueArrow.png */,
+				177CD3B715874F1A00BABBCD /* blueArrow@2x.png */,
+				177CD3B815874F1A00BABBCD /* grayArrow.png */,
+				177CD3B915874F1A00BABBCD /* grayArrow@2x.png */,
+				177CD3BA15874F1A00BABBCD /* whiteArrow.png */,
+				177CD3BB15874F1A00BABBCD /* whiteArrow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		177CD38C15874EFE00BABBCD /* EGORefreshPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177CD3AB15874EFE00BABBCD /* Build configuration list for PBXNativeTarget "EGORefreshPlus" */;
+			buildPhases = (
+				177CD38915874EFE00BABBCD /* Sources */,
+				177CD38A15874EFE00BABBCD /* Frameworks */,
+				177CD38B15874EFE00BABBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGORefreshPlus;
+			productName = EGORefreshPlus;
+			productReference = 177CD38D15874EFE00BABBCD /* EGORefreshPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177CD38415874EFE00BABBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 177CD38715874EFE00BABBCD /* Build configuration list for PBXProject "EGORefreshPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 177CD38215874EFE00BABBCD;
+			productRefGroup = 177CD38E15874EFE00BABBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				177CD38C15874EFE00BABBCD /* EGORefreshPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177CD38B15874EFE00BABBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CD39C15874EFE00BABBCD /* InfoPlist.strings in Resources */,
+				177CD3A815874EFE00BABBCD /* ViewController.xib in Resources */,
+				177CD3BD15874F1A00BABBCD /* blackArrow.png in Resources */,
+				177CD3BE15874F1A00BABBCD /* blackArrow@2x.png in Resources */,
+				177CD3BF15874F1A00BABBCD /* blueArrow.png in Resources */,
+				177CD3C015874F1A00BABBCD /* blueArrow@2x.png in Resources */,
+				177CD3C115874F1A00BABBCD /* grayArrow.png in Resources */,
+				177CD3C215874F1A00BABBCD /* grayArrow@2x.png in Resources */,
+				177CD3C315874F1A00BABBCD /* whiteArrow.png in Resources */,
+				177CD3C415874F1A00BABBCD /* whiteArrow@2x.png in Resources */,
+				177CD3C81587644D00BABBCD /* IconRefreshArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177CD38915874EFE00BABBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177CD39E15874EFE00BABBCD /* main.m in Sources */,
+				177CD3A215874EFE00BABBCD /* AppDelegate.m in Sources */,
+				177CD3A515874EFE00BABBCD /* ViewController.m in Sources */,
+				177CD3BC15874F1A00BABBCD /* EGORefreshTableHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		177CD39A15874EFE00BABBCD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177CD39B15874EFE00BABBCD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		177CD3A615874EFE00BABBCD /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177CD3A715874EFE00BABBCD /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		177CD3A915874EFE00BABBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		177CD3AA15874EFE00BABBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177CD3AC15874EFE00BABBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGORefreshPlus/EGORefreshPlus-Prefix.pch";
+				INFOPLIST_FILE = "EGORefreshPlus/EGORefreshPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		177CD3AD15874EFE00BABBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGORefreshPlus/EGORefreshPlus-Prefix.pch";
+				INFOPLIST_FILE = "EGORefreshPlus/EGORefreshPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177CD38715874EFE00BABBCD /* Build configuration list for PBXProject "EGORefreshPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177CD3A915874EFE00BABBCD /* Debug */,
+				177CD3AA15874EFE00BABBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177CD3AB15874EFE00BABBCD /* Build configuration list for PBXNativeTarget "EGORefreshPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177CD3AC15874EFE00BABBCD /* Debug */,
+				177CD3AD15874EFE00BABBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177CD38415874EFE00BABBCD /* Project object */;
+}
